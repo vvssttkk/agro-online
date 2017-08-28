@@ -1,6 +1,8 @@
 # agro-online
 
-in this repository you can find how calculate biomace index using satellite landsat8 & sentinel-2
+in this repository you can find how calculate biomace index using satellite 
+                                                                           - landsat8 https://landsat.gsfc.nasa.gov/landsat-data-continuity-mission/ 
+                                                                           - sentinel-2 https://sentinel.esa.int/web/sentinel/missions/sentinel-2
 
 1. download some snapshot from
       * to lc8 https://earthexplorer.usgs.gov
