@@ -7,6 +7,6 @@ the sequence run files:
       * to lc8 https://earthexplorer.usgs.gov
       * to s2a https://scihub.copernicus.eu/dhus/#/home
 2. run _downloadFarm.py_ to download some farm
-3. run _ndvi_maker.py_ to doing ndvi.tif & rgb.tif
+3. run _ndvi_maker.py_ to doing _ndvi.tif & _rgb.tif
 4. run _ndvi_cut.py_ to cutting ndvi.tif & rgb.tif for farm
 
