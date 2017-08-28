@@ -10,3 +10,4 @@ the sequence run files:
 3. run _ndvi_maker.py_ to doing _ndvi.tif & _rgb.tif
 4. run _ndvi_cut.py_ to cutting _ndvi.tif & _rgb.tif for farm
 
+***python2
