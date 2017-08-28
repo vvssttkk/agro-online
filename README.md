@@ -1,6 +1,6 @@
 # agro-online
 
-in this repository you can find how calculate biomace index (ndvi) using satellite landsat8 (https://landsat.gsfc.nasa.gov/landsat-data-continuity-mission/) & sentinel-2 (https://sentinel.esa.int/web/sentinel/missions/sentinel-2)
+in this repository you can find how calculate biomace activity - ndvi (Normalized Difference Vegetation Index) using satellite landsat8 (https://landsat.gsfc.nasa.gov/landsat-data-continuity-mission/) & sentinel-2 (https://sentinel.esa.int/web/sentinel/missions/sentinel-2)
 
 the sequence run files:
 1. download some snapshot from
