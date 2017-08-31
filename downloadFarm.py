@@ -18,20 +18,14 @@ pwd=sys.argv[2]
 
 g = Grab()
 g.setup(connect_timeout=60, timeout=90)
-g.go("http://agro-online.com.ua/ru/auth/login/")
-g.doc.set_input('email', 'demo@agro-online.com.ua')
-g.doc.set_input('password', 'demo2016')
+g.go("http://mail.com/ru/auth/login/")
+g.doc.set_input('email', 'email@mail.com')
+g.doc.set_input('password', 'pass')
 g.doc.submit()
-g.go('http://agro-online.com.ua/export/satellite/fields/?key=FSKi1A23tC3ROh3sSY5y1tFSKiAtC314ROh143AtC3R49w&amp;company='+farm+'&amp;private=1')
+g.go('http://mail.com/export/satellite/any='+farm+';private=1')
 
 f = open('{}/{}.json'.format(pwd,farm),'w')
 f.write(g.doc.select('//*').text())
 f.close()
 
 print 'farm download'
-
-#if (len(sys.argv) == 3):
-
-#else:
- #   print "\tYou must have 2 argv!"
- #   print "\texample: python GetJson.py 10 output_filename.json"
