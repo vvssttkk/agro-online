@@ -1,4 +1,4 @@
-# agro-online (python2)
+# agro-online _(python2)_
 
 in this repository you can find how calculate biomace activity - ndvi (Normalized Difference Vegetation Index) using satellite [landsat8](https://landsat.gsfc.nasa.gov/landsat-data-continuity-mission/) & [sentinel-2](https://sentinel.esa.int/web/sentinel/missions/sentinel-2)
 
